@@ -1,1 +1,9 @@
+import sys #Importar librería
 
+print('Hello, World!') #Muestra el texto en comillas en la consola
+
+print('The sum of 2 and 3 is 5.')  #Muestra el texto en comillas en la consola
+
+sum = int(sys.argv[1]) + int(sys.argv[2]) 
+
+print('The sum of {0} and {1} is {2}.'.format(sys.argv[1], sys.argv[2], sum)) 
